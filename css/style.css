@@ -734,6 +734,10 @@ video {
   .sm\:w-full {
     width: 100%;
   }
+
+  .sm\:p-4 {
+    padding: 1rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -744,5 +748,9 @@ video {
 
   .lg\:w-1\/2 {
     width: 50%;
+  }
+
+  .lg\:p-8 {
+    padding: 2rem;
   }
 }
